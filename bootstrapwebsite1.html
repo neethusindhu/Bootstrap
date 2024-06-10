@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tasty Food</title>
+	<link rel="stylesheet" type="text/css" href="C:\Users\nandu\OneDrive\Desktop\mashup\tastyfoods.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<!-- nav bar -->
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white fw-bold" href="#">Tasty Foods</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#order">Orders</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Deals
+          </a>
+          
+          <ul class="dropdown-menu"  aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">offer</a></li>
+            <li><a class="dropdown-item" href="#">todays special</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#footer" tabindex="-1" aria-disabled="true">Location</a>
+        </li>
+      </ul>
+  </div>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-success" type="submit">Search</button>
+      </form>
+    </div>
+</nav>
+<!-- Carousal-- -->
+
+<div id="home" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo1" data-slide-to="0" class="active"></li>
+    <li data-target="#demo1" data-slide-to="1"></li>
+    <li data-target="#demo1" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="C:\Users\nandu\Downloads\victoria-shes-UC0HZdUitWY-unsplash.jpg" width="1600" height="600">
+      <div class="carousel-caption">
+        <h1 class="text-white">Arabic</h1>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="https://media.istockphoto.com/id/922783734/photo/assorted-indian-recipes-food-various.jpg?s=612x612&w=0&k=20&c=p8DepvymWfC5j7c6En2UsQ6sUM794SQMwceeBW3yQ9M=" alt="Kovalam" width="1600" height="600">
+      <div class="carousel-caption">
+        <h1 class="text-white">Indian</h1>
+      </div>   
+    </div>
+ <div class="carousel-item">
+      <img src="https://t4.ftcdn.net/jpg/03/24/16/57/360_F_324165757_buAX78dg7TGgjh0pB8aUCwOWRkNejmwA.jpg" alt="Trivandrum" width="1600" height="600">
+      <div class="carousel-caption">
+        <h1 class="text-white">Chinese</h1>
+      </div>   
+  </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo1" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo1" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+<!-- Oder Items -->
+
+
+<div class="container" id="order">
+	<h1 class="text-center text-warning">Order your Items Now....!</h1>
+	<div class="row my-2">
+		<div class="col-4">
+  		<div class="card text-center border-2 border-warning" style="width:300px; height:400px">
+    <img class="card-img-top" src="C:\Users\nandu\Downloads\deepal-tamang-5oF7d_hPJG4-unsplash.jpg" alt="Card image" style="width:100%">
+    		<div class="card-body">
+      <h4 class="card-title">Dosa</h4>
+      <p class="card-text">South-Indian Masala Dosa</p>
+      <h5 class="card-title text-danger">Rs 100.00</h5>
+      <a href="#" class="btn btn-primary stretched-link">Order Now </a>
+    		</div>
+  		</div>
+ 	</div>
+		<div class="col-4">
+			<div class="card text-center border-2 border-warning" style="width:300px; height:400px">
+    <img class="card-img-top" src="https://static.wixstatic.com/media/91e241_76e634b7ab52498e82533ba79b747b55~mv2.jpg/v1/fill/w_640,h_426,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/91e241_76e634b7ab52498e82533ba79b747b55~mv2.jpg"alt="Card image" style="width:100%">
+    			<div class="card-body">
+      <h4 class="card-title">Chicken Biriyani</h4>
+      <p class="card-text">Tasty Chicken Biriyani</p>
+      <h5 class="card-title text-danger">Rs 190.00</h5>
+      <a href="#" class="btn btn-primary stretched-link">Order Now </a>
+    			</div>
+  		</div>
+	</div>
+	<div class="col-4">
+				<div class="col-4">
+					<div class="card text-center border-2 border-warning" style="width:300px; height:400px">
+    <img class="card-img-top" src="https://media-cdn.tripadvisor.com/media/photo-s/02/70/59/31/kerala-fish-curry-meals.jpg"alt="Card image" style="width:100%">
+    					<div class="card-body">
+      <h4 class="card-title"> Meals</h4>
+      <p class="card-text">Tasty Kerala Meals with Fish Curry</p>
+      <h5 class="card-title text-danger">Rs 150.00</h5>
+      <a href="#" class="btn btn-primary stretched-link">Order Now </a>
+    					</div>
+  					</div>
+				</div>
+	</div>
+
+</div>
+	<div class="row my-2">
+		<div class="col-4">
+			<div class="col-4">
+			<div class="card text-center border-2 border-warning" style="width:300px; height:400px">
+    <img class="card-img-top" src="https://www.shutterstock.com/image-photo/tandoori-chicken-indian-arabian-grilled-260nw-1152913145.jpg"alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">Alfam</h4>
+      <p class="card-text">Tasty Chicken Alfam</p>
+      <h5 class="card-title text-danger">Rs 450.00</h5>
+      <a href="#" class="btn btn-primary stretched-link">Order Now </a>
+    </div>
+  </div>
+		</div>
+		</div>
+		<div class="col-4">
+			<div class="col-4">
+			<div class="card text-center border-2 border-warning" style="width:300px; height:400px">
+    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLLgS2tvFT5QSG6qUvdbQwvn39azVI9ZAazw&usqp=CAU"alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title"> Fish Fry</h4>
+      <p class="card-text">Tasty Fish Fry</p>
+      <h5 class="card-title text-danger">Rs 150.00</h5>
+      <a href="#" class="btn btn-primary stretched-link">Order Now </a>
+    </div>
+  </div>
+		</div>
+		</div>
+		<div class="col-4">
+			<div class="col-4">
+			<div class="card text-center border-2 border-warning" style="width:300px; height:400px">
+    <img class="card-img-top" src="https://static.toiimg.com/thumb/54458787.cms?width=1200&height=900"alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title"> Cicken Noodells</h4>
+      <p class="card-text">Tasty Chickn Noodells</p>
+      <h5 class="card-title text-danger">Rs 250.00</h5>
+      <a href="#" class="btn btn-primary stretched-link">Order Now </a>
+    </div>
+  </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Footer-- -->
+
+<div class="container-fluid bg-warning " id="footer">
+	<h1 class="text-center">Location</h1>
+	<div class="row">
+		
+
+		<div class="col-6">
+			<h1 class="text-white">Tasty Food Restaurant</h1>
+			<h4>Kochi</h4>
+			<h4>Kerala</h4>
+			<p>Tel: 0475 2784589</p>
+			<p>Email: tasty@gmail.com</p>
+			<p>Website: www.tasty.com</p>
+						
+		</div>
+			
+		<div class="col-6">
+		
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31431.07544917078!2d76.29152172484258!3d10.02639472568966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080dafbed183bf%3A0x5951f316ba13a37e!2sLuLu%20International%20Shopping%20Mall!5e0!3m2!1sen!2sin!4v1705656619948!5m2!1sen!2sin" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+		
+	</div>
+	
+</div>
+
+</body>
+</html>
